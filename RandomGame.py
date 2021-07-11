@@ -1,10 +1,17 @@
 import random
-r = random.randint(1,100)
 count = 0;
-while count < 3:
+
+start = input("請輸入開始值：")
+end = input("請輸入結束值：")
+start = int(start)
+end = int(end)
+r = random.randint(start,end)
+
+
+while True:
 	count = count + 1
 
-	num = input("輸入數字1~100：")
+	num = input("輸入數字：")
 	num = int(num)
 
 	if num == r:
