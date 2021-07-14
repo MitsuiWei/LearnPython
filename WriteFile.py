@@ -3,4 +3,5 @@ with open('num.txt','w')as f:
 	for num in data:
 		f.write(str(num) + '\n')
 
-# write只能寫入'字串'
+# 加法只能字串+字串 或是 整數+整數
+# 所以必須把整數轉換成字串 
