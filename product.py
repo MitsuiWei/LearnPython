@@ -31,3 +31,6 @@ print(products)
 
 print(products[0][0]) 
 # 珍珠奶茶 , 0 -> 取到 珍珠奶茶
+
+for p in products:
+	print(p[0], '的價格', p[1])
