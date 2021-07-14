@@ -14,23 +14,11 @@ while True:
 	products.append(p) 
 	# 二維清單
 
-	
-	
-
-
-	# test2 = []
-	# test2.append(name)
-	# test2.append(price)
-	# test2.append(test)
-
-	# products.append(test2)
-	# 三維清單
-
-
 print(products)
 
-print(products[0][0]) 
-# 珍珠奶茶 , 0 -> 取到 珍珠奶茶
+# print(products[0][0]) 
+# # 珍珠奶茶 , 0 -> 取到 珍珠奶茶
 
 for p in products:
 	print(p[0], '的價格', p[1])
+
